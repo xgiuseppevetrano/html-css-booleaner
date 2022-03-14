@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 .pattern {
@@ -36,4 +35,29 @@ a {
 
 .info-img {
     font-size: 13px;
+}
+
+body {
+    margin: 10px;
+}
+
+p {
+    margin-top: 20px;
+}
+
+ul {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+table {
+    margin-top: 20px;
+}
+
+thead {
+    background-color: dodgerblue;
+}
+
+.color {
+    background-color: lightblue;
 }
