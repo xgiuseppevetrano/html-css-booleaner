@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pattern {
+    background-image: url(../img/pattern.png);
+    background-color: dodgerblue;
+    height: 100px;
+}
+
+.logo {
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+.info-news {
+    color: gray;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.date {
+    font-size: 13px;
+}
+
+.info-img {
+    font-size: 13px;
+}
