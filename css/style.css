@@ -1,10 +1,5 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 .pattern {
-    background-image: url(../img/pattern.png);
+    background-image: url("../img/pattern.png");
     background-color: dodgerblue;
     height: 100px;
 }
@@ -37,21 +32,8 @@ a {
     font-size: 13px;
 }
 
-body {
-    margin: 10px;
-}
-
-p {
-    margin-top: 20px;
-}
-
 ul {
-    margin-top: 20px;
-    margin-left: 15px;
-}
-
-table {
-    margin-top: 20px;
+    padding: 15px;
 }
 
 thead {
@@ -60,4 +42,30 @@ thead {
 
 .color {
     background-color: lightblue;
+}
+
+.footer-title{
+    color: gray;
+}
+
+.footer-img {
+    background-image: url("../img/monitor.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 200px;
+}
+
+.footer-img1 {
+    background-image: url("../img/graph.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 200px;
+}
+
+h4 {
+    font-size: 20px;
+    color: white;
+    padding: 10px;
 }
